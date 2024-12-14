@@ -273,7 +273,7 @@ article .icon {
 }
 .projects2{
   margin-left: 530px;
-  height: 50vh;
+  height: 50px;/*vh*/
   width: 500px;
 }
 
