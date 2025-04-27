@@ -7,7 +7,6 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
   </head>
   <body>
     <nav id="desktop-nav">
@@ -21,6 +20,7 @@
         </ul>
       </div>
     </nav>
+
     <section id="profile">
       <div class="section__pic-container">
         <img style="border-radius: 500px;" src="./assets/profilepic.jpeg" alt="Reda profile picture" />
@@ -28,15 +28,15 @@
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Reda El Ferrasi</h1>
-        <p class="section__text__p2">Data Science and IOT student</p>
+        <p class="section__text__p2">2nd-year Data Science & IoT Engineering Student</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/resume.pdf')"
+            onclick="window.open('./assets/Reda_ElFerrasi_CV.pdf')"
           >
             Download CV
           </button>
-          <button class="btn btn-color-1" onclick="location.href='./index.html#contact'">
+          <button class="btn btn-color-1" onclick="location.href='#contact'">
             Contact Info
           </button>
         </div>
@@ -45,7 +45,7 @@
             src="./assets/linkedin.png"
             alt="My LinkedIn profile"
             class="icon"
-            onclick="location.href='https://linkedin.com/in/reda-el-ferrasi-747a6026a/'"
+            onclick="location.href='https://www.linkedin.com/in/reda-el-ferrasi-747a6026a/'"
           />
           <img
             src="./assets/github.png"
@@ -56,6 +56,7 @@
         </div>
       </div>
     </section>
+
     <section id="about">
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
@@ -65,17 +66,20 @@
             <div class="details-container">
               <i class="fa-solid fa-graduation-cap fa-xl"></i>
               <h3>Education</h3>
-              <p>Classes préparatoires aux grandes écoles<br />Data Science and IOT Engineering @ ENSIAS</p>
+              <p>
+                Classes préparatoires aux grandes écoles<br />
+                Data Science & IoT Engineering, ENSIAS (2nd year)
+              </p>
             </div>
             <div class="details-container">
               <i class="fa-solid fa-address-card fa-xl"></i>
               <h3>Profile</h3>
-              <p> I am a first-year engineering student with a passion for building beautiful user friendly websites
-                 I have a strong understanding of both front end and backend development, and I'm excited 
-                 to put my skills to use in a professional setting I am a quick learner and a team player 
-                 and I am confident that I can be a valuable asset to any web development team</p>
+              <p>
+                I’m a 2nd-year engineering student at ENSIAS specializing in Data Science, IoT and Web/Mobile development. 
+                I have built full-stack applications using Flask, React, and containerized ML models with Docker. 
+                I’m passionate about turning sensor data into insights, and I’m eager to apply my skills in a professional environment.
+              </p>
             </div>
-           
           </div>
         </div>
       </div>
@@ -83,131 +87,62 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./index.html#skills'"
+        onclick="location.href='#skills'"
       />
     </section>
+
     <section id="skills">
       <p class="section__text__p1">Explore My</p>
       <h1 class="title">Skills</h1>
       <div class="skills-details-container">
         <div class="about-containers">
           <div class="details-container">
-            <h2 class="skills-sub-title"><i class="fa-brands fa-html5"></i>Frontend Development</h2>
+            <h2 class="skills-sub-title"><i class="fa-brands fa-html5"></i>Frontend</h2>
             <div class="article-container">
               <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>HTML</h3>
-                  <p>Experienced</p>
-                </div>
+                <img src="./assets/checkmark.png" alt="icon" class="icon" />
+                <div><h3>HTML</h3><p>Experienced</p></div>
               </article>
               <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>CSS</h3>
-                  <p>Experienced</p>
-                </div>
+                <img src="./assets/checkmark.png" alt="icon" class="icon" />
+                <div><h3>CSS</h3><p>Experienced</p></div>
               </article>
               <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>JavaScript</h3>
-                  <p>Intermediate</p>
-                </div>
+                <img src="./assets/checkmark.png" alt="icon" class="icon" />
+                <div><h3>JavaScript</h3><p>Intermediate</p></div>
               </article>
               <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>React</h3>
-                  <p>Basic</p>
-                </div>
+                <img src="./assets/checkmark.png" alt="icon" class="icon" />
+                <div><h3>React</h3><p>Intermediate</p></div>
               </article>
               <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>TailwindCSS</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Bootstrap</h3>
-                  <p>Basic</p>
-                </div>
+                <img src="./assets/checkmark.png" alt="icon" class="icon" />
+                <div><h3>Tailwind CSS</h3><p>Basic</p></div>
               </article>
             </div>
           </div>
           <div class="details-container">
-            <h2 class="skills-sub-title"><i class="fa-solid fa-code"></i>Backend Development</h2>
+            <h2 class="skills-sub-title"><i class="fa-solid fa-code"></i>Backend & ML</h2>
             <div class="article-container">
               <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>PHP</h3>
-                  <p>Experienced</p>
-                </div>
+                <img src="./assets/checkmark.png" alt="icon" class="icon" />
+                <div><h3>Python</h3><p>Intermediate</p></div>
               </article>
               <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>MySQL</h3>
-                  <p>Experienced</p>
-                </div>
+                <img src="./assets/checkmark.png" alt="icon" class="icon" />
+                <div><h3>Flask</h3><p>Intermediate</p></div>
               </article>
               <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Laravel</h3>
-                  <p>Intermediate</p>
-                </div>
+                <img src="./assets/checkmark.png" alt="icon" class="icon" />
+                <div><h3>MySQL</h3><p>Experienced</p></div>
               </article>
               <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Python</h3>
-                  <p>Intermediate</p>
-                </div>
+                <img src="./assets/checkmark.png" alt="icon" class="icon" />
+                <div><h3>TensorFlow</h3><p>Basic</p></div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="icon" class="icon" />
+                <div><h3>scikit-learn</h3><p>Basic</p></div>
               </article>
             </div>
           </div>
@@ -217,36 +152,40 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./index.html#projects'"
+        onclick="location.href='#projects'"
       />
     </section>
+
     <section id="projects">
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
-      <div class="projects2" >
+      <div class="projects2">
         <div class="about-containers">
           <div class="details-container color-container">
             <div class="article-container">
-              <img
-                src="./assets/project1.png"
-                alt="Project 1"
-                class="project-img"
-              />
+              <img src="./assets/project1.png" alt="APT Detection" class="project-img" />
             </div>
-            <h2 class="project-sub-title project-title">End-of-year project</h2>
+            <h2 class="project-sub-title project-title">APT Attack Detection Model</h2>
             <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="window.open('https://github.com/redaelfer/pfa', '_blank')"                
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="window.open('https://redaelfer.github.io/demo_pfa/', '_blank')"                
-              >
-                Demo
-              </button>
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/redaelfer/apt-detection', '_blank')">Github</button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project2.png" alt="Smart Gym" class="project-img" />
+            </div>
+            <h2 class="project-sub-title project-title">Smart Gym Posture Correction</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/redaelfer/smart-gym', '_blank')">Github</button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/project3.png" alt="PFA Demo" class="project-img" />
+            </div>
+            <h2 class="project-sub-title project-title">End-of-Year PFA</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://redaelfer.github.io/demo_pfa/', '_blank')">Demo</button>
             </div>
           </div>
         </div>
@@ -255,43 +194,41 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./index.html#contact'"
+        onclick="location.href='#contact'"
       />
     </section>
+
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
-          <img
-            src="./assets/email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          />
+          <img src="./assets/email.png" alt="Email icon" class="icon contact-icon" />
           <p><a href="mailto:redaelferrasi@gmail.com">redaelferrasi@gmail.com</a></p>
         </div>
         <div class="contact-info-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-          />
+          <img src="./assets/phone.png" alt="Phone icon" class="icon contact-icon" />
+          <p>+212 6 07 42 04 30</p>
+        </div>
+        <div class="contact-info-container">
+          <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
           <p><a href="https://www.linkedin.com/in/reda-el-ferrasi-747a6026a/">LinkedIn</a></p>
         </div>
       </div>
     </section>
+
     <footer>
       <nav>
         <div class="nav-links-container">
           <ul class="nav-links">
-            <li><a href="index.html#about">About</a></li>
-            <li><a href="index.html#skills">Skills</a></li>
-            <li><a href="index.html#projects">Projects</a></li>
-            <li><a href="index.html#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2024 Reda El Ferrasi. All Rights Reserved.</p>
+      <p>Copyright &#169; 2025 Reda El Ferrasi. All Rights Reserved.</p>
     </footer>
   </body>
 </html>
